@@ -1,0 +1,91 @@
+[ {
+  "uid" : "21bd524a79487946",
+  "name" : "test_recog_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/home/childinfo-data0]",
+  "time" : {
+    "start" : 1648695935768,
+    "stop" : 1648695936206,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "11db1fd2bf2cf0a",
+  "name" : "test_login_error[http://192.168.1.45:94/EpicardCloudPlat_shandong/Account/Login-data0]",
+  "time" : {
+    "start" : 1648695935128,
+    "stop" : 1648695935144,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29f6b41167f8852e",
+  "name" : "test_login_illegal[http://192.168.1.45:94/EpicardCloudPlat_shandong/Account/Login-data0]",
+  "time" : {
+    "start" : 1648695935081,
+    "stop" : 1648695935128,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3a96a34c4909446",
+  "name" : "test_register_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/appshot/shotinfo-data0]",
+  "time" : {
+    "start" : 1648695944220,
+    "stop" : 1648695944735,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef6835530d443761",
+  "name" : "test_health_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/HealthStatus/save-data0-370102010200000035]",
+  "time" : {
+    "start" : 1648695939627,
+    "stop" : 1648695939971,
+    "duration" : 344
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb930a7ab27d7459",
+  "name" : "test_record_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/app/childinfo-data0-headers0]",
+  "time" : {
+    "start" : 1648695937143,
+    "stop" : 1648695937690,
+    "duration" : 547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5f5011e5db1c6bd",
+  "name" : "test_login_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/Account/Login-data0]",
+  "time" : {
+    "start" : 1648695933880,
+    "stop" : 1648695934972,
+    "duration" : 1092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c608f0f02d413fbd",
+  "name" : "test_sign_success[http://192.168.1.45:94/EpicardCloudPlat_shandong-data_start0-data_get0-data_saveTmp0-data_issign0-data_save0-files0]",
+  "time" : {
+    "start" : 1648695941002,
+    "stop" : 1648695942798,
+    "duration" : 1796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45676d72fa8976e8",
+  "name" : "test_scan_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/appmontior/qrcodeProduct/88888888888888888888-data0]",
+  "time" : {
+    "start" : 1648695945422,
+    "stop" : 1648695945844,
+    "duration" : 422
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

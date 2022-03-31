@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 1 == 0\n  +1\n  -0",
+      "children" : [ {
+        "name" : "test_scan_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/appmontior/qrcodeProduct/88888888888888888888-data0]",
+        "uid" : "45676d72fa8976e8",
+        "parentUid" : "c0a776b5fa3eec3868aa5e8e96941f56",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648695945422,
+          "stop" : 1648695945844,
+          "duration" : 422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'fchildno': '370102010200000035', 'station_code': '3701020102', 'station_name': '十亩园社区卫生服务站预防接种门诊', 'login_name': 'qp001', 'user_name': '秦鹏001', 'device_type': '0', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'deviceSAMId': '', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'app_type': '1', 'deviceModelStr': '', 'unitClass': '1', 'model': 'CT-TPC101', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/appmontior/qrcodeProduct/88888888888888888888'" ]
+      } ],
+      "uid" : "c0a776b5fa3eec3868aa5e8e96941f56"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

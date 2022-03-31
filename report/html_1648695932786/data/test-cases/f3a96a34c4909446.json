@@ -1,0 +1,244 @@
+{
+  "uid" : "f3a96a34c4909446",
+  "name" : "test_register_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/appshot/shotinfo-data0]",
+  "fullName" : "testcase.test_06_register.Test_Register#test_register_success",
+  "historyId" : "1e37f37054e6fa6c47ce5470409fd0ae",
+  "time" : {
+    "start" : 1648695944220,
+    "stop" : 1648695944735,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "exe_all",
+    "time" : {
+      "start" : 1648695943845,
+      "stop" : 1648695943845,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "clear_all",
+    "time" : {
+      "start" : 1648695943845,
+      "stop" : 1648695944220,
+      "duration" : 375
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "把data转换为json_str",
+      "time" : {
+        "start" : 1648695944220,
+        "stop" : 1648695944220,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "参数加密",
+      "time" : {
+        "start" : 1648695944220,
+        "stop" : 1648695944235,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "组装请求参数",
+      "time" : {
+        "start" : 1648695944235,
+        "stop" : 1648695944235,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1648695944235,
+        "stop" : 1648695944720,
+        "duration" : 485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "解密",
+      "time" : {
+        "start" : 1648695944720,
+        "stop" : 1648695944735,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "返回请求结果",
+      "time" : {
+        "start" : 1648695944735,
+        "stop" : 1648695944735,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1648695944735,
+        "stop" : 1648695944735,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "clear_all::0",
+    "time" : {
+      "start" : 1648695944735,
+      "stop" : 1648695945110,
+      "duration" : 375
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "exe_all::0",
+    "time" : {
+      "start" : 1648695945110,
+      "stop" : 1648695945110,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "接种登记模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_06_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Register"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EPSK91D"
+  }, {
+    "name" : "thread",
+    "value" : "7828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_06_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'fchildno': '370102010200000035', 'data': '[{\"bactcode\":\"02\",\"bactname\":\"乙肝疫苗\",\"corpcode\":\"33\",\"corpname\":\"华北金坦\",\"inocSource\":\"S\",\"jc\":\"1\",\"productname\":\"乙肝疫苗(CHO)\",\"productno\":\"0201\",\"result\":1,\"signid\":\"d30405660f7a41e9b10346729879d054\"}]', 'login_name': 'qp001', 'station_name': '十亩园社区卫生服务站预防接种门诊', 'station_code': '3701020102', 'user_name': '秦鹏001', 'device_type': '0', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'deviceSAMId': '', 'deleteShotIds': '', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'app_type': '1', 'deviceModelStr': '', 'unitClass': '1', 'model': 'CT-TPC101', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.45:94/EpicardCloudPlat_shandong/appshot/shotinfo'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3a96a34c4909446.json",
+  "parameterValues" : [ "{'fchildno': '370102010200000035', 'data': '[{\"bactcode\":\"02\",\"bactname\":\"乙肝疫苗\",\"corpcode\":\"33\",\"corpname\":\"华北金坦\",\"inocSource\":\"S\",\"jc\":\"1\",\"productname\":\"乙肝疫苗(CHO)\",\"productno\":\"0201\",\"result\":1,\"signid\":\"d30405660f7a41e9b10346729879d054\"}]', 'login_name': 'qp001', 'station_name': '十亩园社区卫生服务站预防接种门诊', 'station_code': '3701020102', 'user_name': '秦鹏001', 'device_type': '0', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'deviceSAMId': '', 'deleteShotIds': '', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'app_type': '1', 'deviceModelStr': '', 'unitClass': '1', 'model': 'CT-TPC101', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/appshot/shotinfo'" ]
+}

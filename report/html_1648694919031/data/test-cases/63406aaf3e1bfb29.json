@@ -1,0 +1,244 @@
+{
+  "uid" : "63406aaf3e1bfb29",
+  "name" : "test_scan_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/appmontior/qrcodeProduct/88888888888888888888-data0]",
+  "fullName" : "testcase.test_07_scan.Test_Scan#test_scan_success",
+  "historyId" : "838e06c6fb980fba11931861300c6a71",
+  "time" : {
+    "start" : 1648694925729,
+    "stop" : 1648694926198,
+    "duration" : 469
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "exe_all",
+    "time" : {
+      "start" : 1648694919562,
+      "stop" : 1648694919562,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "clear_all",
+    "time" : {
+      "start" : 1648694919562,
+      "stop" : 1648694920172,
+      "duration" : 610
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "把data转换为json_str",
+      "time" : {
+        "start" : 1648694925729,
+        "stop" : 1648694925729,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "参数加密",
+      "time" : {
+        "start" : 1648694925729,
+        "stop" : 1648694925729,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "组装请求参数",
+      "time" : {
+        "start" : 1648694925729,
+        "stop" : 1648694925729,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1648694925729,
+        "stop" : 1648694926183,
+        "duration" : 454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "解密",
+      "time" : {
+        "start" : 1648694926183,
+        "stop" : 1648694926183,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "返回请求结果",
+      "time" : {
+        "start" : 1648694926183,
+        "stop" : 1648694926198,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1648694926198,
+        "stop" : 1648694926198,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "clear_all::0",
+    "time" : {
+      "start" : 1648694926198,
+      "stop" : 1648694928635,
+      "duration" : 2437
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "exe_all::0",
+    "time" : {
+      "start" : 1648694928635,
+      "stop" : 1648694928635,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "扫码模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_07_scan"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Scan"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EPSK91D"
+  }, {
+    "name" : "thread",
+    "value" : "1728-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_07_scan"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'fchildno': '370102010200000035', 'station_code': '3701020102', 'station_name': '十亩园社区卫生服务站预防接种门诊', 'login_name': 'qp001', 'user_name': '秦鹏001', 'device_type': '0', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'deviceSAMId': '', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'app_type': '1', 'deviceModelStr': '', 'unitClass': '1', 'model': 'CT-TPC101', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.45:94/EpicardCloudPlat_shandong/appmontior/qrcodeProduct/88888888888888888888'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "63406aaf3e1bfb29.json",
+  "parameterValues" : [ "{'fchildno': '370102010200000035', 'station_code': '3701020102', 'station_name': '十亩园社区卫生服务站预防接种门诊', 'login_name': 'qp001', 'user_name': '秦鹏001', 'device_type': '0', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'deviceSAMId': '', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'app_type': '1', 'deviceModelStr': '', 'unitClass': '1', 'model': 'CT-TPC101', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/appmontior/qrcodeProduct/88888888888888888888'" ]
+}

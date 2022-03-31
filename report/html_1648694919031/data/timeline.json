@@ -1,0 +1,166 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-EPSK91D",
+    "children" : [ {
+      "name" : "1728-MainThread",
+      "children" : [ {
+        "name" : "test_health_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/HealthStatus/save-data0-370102010200000035]",
+        "uid" : "f056bbdd7f9e24b7",
+        "parentUid" : "ff3e3a6bc1f9187732850cf3bfa923cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648694922355,
+          "stop" : 1648694922605,
+          "duration" : 250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'fchildno': '370102010200000035', 'unitCode': '3701020102', 'unitCodeNew': '3701020102', 'loginName': 'qp001', 'timestamp': 1648694919453, 'ansterList': [{'showIndex': 2, 'answer': '否', 'healthid': 1}, {'showIndex': 2, 'answer': '否', 'healthid': 2}, {'showIndex': 2, 'answer': '否', 'healthid': 3}, {'showIndex': 2, 'answer': '否', 'healthid': 4}, {'showIndex': 2, 'answer': '否', 'healthid': 5}, {'showIndex': 2, 'answer': '否', 'healthid': 6}, {'showIndex': 2, 'answer': '否', 'healthid': 7}, {'showIndex': 2, 'answer': '否', 'healthid': 8}, {'showIndex': 2, 'answer': '否', 'healthid': 9}, {'showIndex': 2, 'answer': '否', 'healthid': 10}, {'showIndex': 2, 'answer': '否', 'healthid': 11}, {'showIndex': 2, 'answer': '否', 'healthid': 12}, {'showIndex': 2, 'answer': '否', 'healthid': 13}], 'type': 'APP03', 'childInquiry': '1', 'resultRemark': '', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}", "'370102010200000035'", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/HealthStatus/save'" ]
+      }, {
+        "name" : "test_register_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/appshot/shotinfo-data0]",
+        "uid" : "d642668521716e00",
+        "parentUid" : "ff3e3a6bc1f9187732850cf3bfa923cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648694924964,
+          "stop" : 1648694925714,
+          "duration" : 750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'fchildno': '370102010200000035', 'data': '[{\"bactcode\":\"02\",\"bactname\":\"乙肝疫苗\",\"corpcode\":\"33\",\"corpname\":\"华北金坦\",\"inocSource\":\"S\",\"jc\":\"1\",\"productname\":\"乙肝疫苗(CHO)\",\"productno\":\"0201\",\"result\":1,\"signid\":\"d30405660f7a41e9b10346729879d054\"}]', 'login_name': 'qp001', 'station_name': '十亩园社区卫生服务站预防接种门诊', 'station_code': '3701020102', 'user_name': '秦鹏001', 'device_type': '0', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'deviceSAMId': '', 'deleteShotIds': '', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'app_type': '1', 'deviceModelStr': '', 'unitClass': '1', 'model': 'CT-TPC101', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/appshot/shotinfo'" ]
+      }, {
+        "name" : "test_record_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/app/childinfo-data0-headers0]",
+        "uid" : "25861a6c47ae5694",
+        "parentUid" : "ff3e3a6bc1f9187732850cf3bfa923cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648694921824,
+          "stop" : 1648694922339,
+          "duration" : 515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'loginname': 'qp001', 'unitCode': '3701020102', 'unitName': '秦鹏001', 'cardtype': '03-护照', 'mothercardtype': '01-居民身份证', 'fathercardtype': '01-居民身份证', 'cardid': '4000', 'name': '接口自动化b', 'sex': '1', 'birthday': '2000-01-01', 'resiType': '1', 'nationnality': '156-中国', 'nationnalityname': '中国', 'nationnalityDisabled': 'false', 'createdate': '2022-03-31', 'motherHbsag': '9', 'childHbsag': '9', 'childAntibody': '9', 'address': '3700000000,3701000000,3701020000,3701020100,123123,山东省.济南市.历下区.解放路街道办事处.123123', 'habiaddr': '3700000000,3701000000,3701020000,3701020100,123123,山东省.济南市.历下区.解放路街道办事处.123123', 'birthHour': '', 'birthMin': '', 'committeeCode': '370102010201-12', 'mobilephone': '17500000000', 'allPhone': '17500000000', 'peopleClass': '01', 'habiaddrDetail': '123123', 'addressDetail': '123123', 'birthtime': '', 'timestamp': 1648694919438, 'proofno': ''}", "{'Referer': 'http://192.168.1.45:94/EpicardCloudPlatWeb_shanDongAppH5/', 'Content-Type': 'application/x-www-form-urlencoded', 'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; CT-TPC101 Build/2.6.1-21040120; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.100 Safari/537.36', 'X-Requested-With': 'com.shensu.ymy_jz'}", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/app/childinfo'" ]
+      }, {
+        "name" : "test_scan_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/appmontior/qrcodeProduct/88888888888888888888-data0]",
+        "uid" : "63406aaf3e1bfb29",
+        "parentUid" : "ff3e3a6bc1f9187732850cf3bfa923cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648694925729,
+          "stop" : 1648694926198,
+          "duration" : 469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'fchildno': '370102010200000035', 'station_code': '3701020102', 'station_name': '十亩园社区卫生服务站预防接种门诊', 'login_name': 'qp001', 'user_name': '秦鹏001', 'device_type': '0', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'deviceSAMId': '', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'app_type': '1', 'deviceModelStr': '', 'unitClass': '1', 'model': 'CT-TPC101', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/appmontior/qrcodeProduct/88888888888888888888'" ]
+      }, {
+        "name" : "test_sign_success[http://192.168.1.45:94/EpicardCloudPlat_shandong-data_start0-data_get0-data_saveTmp0-data_issign0-data_save0-files0]",
+        "uid" : "7ba3809f844f67f",
+        "parentUid" : "ff3e3a6bc1f9187732850cf3bfa923cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648694922621,
+          "stop" : 1648694924948,
+          "duration" : 2327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'access_token': 'MdzCgSbPkac+HbIYmAlwFXEua+wA7k4zC5/WCmhPV0HzCZL3quSDzIvaVWnRs1vK/KhaKF+Cm40\\\\u003d\\\\n', 'login_name': 'bc3e6b0280669dac480c1d5ad1554def', 'app_type': '1', 'version_name': '2.0.0', 'os': 'android', 'device_id': 'f6aaa17a04e4012d', 'sign_id': 'bc3e6b0280669dac480c1d5ad1554def', 'version_code': '2', 'model': 'rk3368', 'device_type': '1002'}", "{'device_type': '0', 'fchildno': '370102010200000035', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'deviceSAMId': '', 'station_code': '3701020102', 'station_name': '十亩园社区卫生服务站预防接种门诊', 'login_name': 'qp001', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n', 'app_type': '1', 'user_name': '秦鹏001', 'deviceModelStr': '', 'unitClass': '1', 'model': 'CT-TPC101', 'factorycode': '33', 'jc': '1'}", "{'device_type': '0', 'fchildno': '370102010200000035', 'relation': '本人', 'pad_id': 'f019c357bc9f256c24b9017c299456df', 'factorycode': '33', 'login_name': 'qp001', 'os': 'android', 'version_name': '2.0.0', 'class_code': '02', 'price': '', 'signType': '1', 'device_id': '53ea7bf626ed9cd5', 'vaccinecode': '0201', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n', 'jc': '1', 'isOpenTakePhoto': '1', 'model': 'CT-TPC101'}", "{'os': 'android', 'device_id': 'f6aaa17a04e4012d', 'fchildno': '370102010200000035', 'sign_id': 'bc3e6b0280669dac480c1d5ad1554def', 'user_name': 'bc3e6b0280669dac480c1d5ad1554def', 'vaccinecode': '0201', 'device_type': 'android', 'relation': '本人', 'access_token': 'MdzCgSbPkac+HbIYmAlwFXEua+wA7k4zC5/WCmhPV0HzCZL3quSDzIvaVWnRs1vK/KhaKF+Cm40\\\\u003d\\\\n', 'factorycode': '33', 'version_name': '2.0.0', 'price': '', 'jc': '1', 'model': 'rk3368'}", "{'device_type': '0', 'fchildno': '370102010200000035', 'classCode': '02', 'pad_id': 'f019c357bc9f256c24b9017c299456df', 'station_code': '3701020102', 'login_name': 'qp001', 'station_name': '十亩园社区卫生服务站预防接种门诊', 'version_name': '2.0.0', 'className': '乙肝疫苗', 'isOpenTakePhoto': '1', 'app_type': '1', 'productname': '乙肝疫苗(CHO)', 'factoryName': '华北金坦', 'user_name': '秦鹏001', 'deviceModelStr': '', 'relation': '本人', 'productno': '0201', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'factorycode': '33', 'deviceSAMId': '', 'os': 'android', 'price': '', 'signType': '1', 'device_id': '53ea7bf626ed9cd5', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n', 'jc': '1', 'unitClass': '1', 'model': 'CT-TPC101'}", "[('files', ('photo.png', <_io.BufferedReader name='D:\\\\Scripts_PY\\\\YDJZApiTest\\\\testcase\\\\params\\\\photo.png'>, 'image/png')), ('files', ('sign.png', <_io.BufferedReader name='D:\\\\Scripts_PY\\\\YDJZApiTest\\\\testcase\\\\params\\\\sign.png'>, 'image/png'))]", "'http://192.168.1.45:94/EpicardCloudPlat_shandong'" ]
+      }, {
+        "name" : "test_login_illegal[http://192.168.1.45:94/EpicardCloudPlat_shandong/Account/Login-data0]",
+        "uid" : "1c2af5a659477165",
+        "parentUid" : "ff3e3a6bc1f9187732850cf3bfa923cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648694921418,
+          "stop" : 1648694921465,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'login_name': 'qd_qp', 'login_password': '2476821d34ec17e549a8f1b0d5396c65', 'device_type': '0', 'effectiveDate': '2099-12-31 00:00:00', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'deviceSAMId': '', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'app_type': '1', 'type': '2', 'deviceModelStr': '', 'unitClass': '1', 'model': 'CT-TPC101', 'user_push_id': '1104a8979261c7cb5f1', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/Account/Login'" ]
+      }, {
+        "name" : "test_login_error[http://192.168.1.45:94/EpicardCloudPlat_shandong/Account/Login-data0]",
+        "uid" : "e5f616380b06cb32",
+        "parentUid" : "ff3e3a6bc1f9187732850cf3bfa923cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648694921480,
+          "stop" : 1648694921496,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'login_name': 'qp111', 'login_password': '2476821d34ec17e549a8f1b0d5396c65', 'device_type': '0', 'effectiveDate': '2099-12-31 00:00:00', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'deviceSAMId': '', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'app_type': '1', 'type': '2', 'deviceModelStr': '', 'unitClass': '1', 'model': 'CT-TPC101', 'user_push_id': '1104a8979261c7cb5f1', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/Account/Login'" ]
+      }, {
+        "name" : "test_login_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/Account/Login-data0]",
+        "uid" : "5c7f29f13da41e71",
+        "parentUid" : "ff3e3a6bc1f9187732850cf3bfa923cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648694920172,
+          "stop" : 1648694921308,
+          "duration" : 1136
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'login_name': 'qp001', 'login_password': '2476821d34ec17e549a8f1b0d5396c65', 'device_type': '0', 'effectiveDate': '2099-12-31 00:00:00', 'appid': 'f019c357bc9f256c24b9017c299456df', 'version_code': '2', 'deviceSAMId': '', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'app_type': '1', 'type': '2', 'deviceModelStr': '', 'unitClass': '1', 'model': 'CT-TPC101', 'user_push_id': '1104a8979261c7cb5f1', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/Account/Login'" ]
+      }, {
+        "name" : "test_recog_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/home/childinfo-data0]",
+        "uid" : "25b2d31267b33838",
+        "parentUid" : "ff3e3a6bc1f9187732850cf3bfa923cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1648694921496,
+          "stop" : 1648694921809,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'user_name': '秦鹏001', 'login_name': 'qp001', 'cardId': '3000', 'station_name': '十亩园社区卫生服务站预防接种门诊', 'station_code': '3701020102', 'device_type': '0', 'appid': 'f019c357bc9f256c24b9017c299456df', 'idType': '03', 'version_code': '2', 'deviceSAMId': '', 'os': 'android', 'version_name': '2.0.0', 'device_id': '53ea7bf626ed9cd5', 'birth': '', 'name': '', 'app_type': '1', 'sex': '', 'deviceModelStr': '', 'unitClass': '1', 'model': '1', 'access_token': 'Obr4CjMb1MnFmXQ6Ylj5sGbiq45/ZjGBinUTyf2XWzzwHUm5v6rMB7hXZ0OtCtEQrvZhCBysEUE\\\\u003d\\\\n'}", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/home/childinfo'" ]
+      } ],
+      "uid" : "ff3e3a6bc1f9187732850cf3bfa923cb"
+    } ],
+    "uid" : "6c7246053e038b90e8dbd54451df18b3"
+  } ]
+}

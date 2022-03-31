@@ -1,0 +1,232 @@
+{
+  "uid" : "25861a6c47ae5694",
+  "name" : "test_record_success[http://192.168.1.45:94/EpicardCloudPlat_shandong/app/childinfo-data0-headers0]",
+  "fullName" : "testcase.test_03_record.Test_Record#test_record_success",
+  "historyId" : "35866923773b1d7bd7df9402b5e9efb8",
+  "time" : {
+    "start" : 1648694921824,
+    "stop" : 1648694922339,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "exe_all",
+    "time" : {
+      "start" : 1648694919562,
+      "stop" : 1648694919562,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "clear_all",
+    "time" : {
+      "start" : 1648694919562,
+      "stop" : 1648694920172,
+      "duration" : 610
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "把data转换为json_str",
+      "time" : {
+        "start" : 1648694921824,
+        "stop" : 1648694921824,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "参数加密",
+      "time" : {
+        "start" : 1648694921824,
+        "stop" : 1648694921840,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "组装请求参数",
+      "time" : {
+        "start" : 1648694921840,
+        "stop" : 1648694921840,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1648694921840,
+        "stop" : 1648694922339,
+        "duration" : 499
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "返回请求结果",
+      "time" : {
+        "start" : 1648694922339,
+        "stop" : 1648694922339,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1648694922339,
+        "stop" : 1648694922339,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "clear_all::0",
+    "time" : {
+      "start" : 1648694926198,
+      "stop" : 1648694928635,
+      "duration" : 2437
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "exe_all::0",
+    "time" : {
+      "start" : 1648694928635,
+      "stop" : 1648694928635,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "建档模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_record"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Record"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-EPSK91D"
+  }, {
+    "name" : "thread",
+    "value" : "1728-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_03_record"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'loginname': 'qp001', 'unitCode': '3701020102', 'unitName': '秦鹏001', 'cardtype': '03-护照', 'mothercardtype': '01-居民身份证', 'fathercardtype': '01-居民身份证', 'cardid': '4000', 'name': '接口自动化b', 'sex': '1', 'birthday': '2000-01-01', 'resiType': '1', 'nationnality': '156-中国', 'nationnalityname': '中国', 'nationnalityDisabled': 'false', 'createdate': '2022-03-31', 'motherHbsag': '9', 'childHbsag': '9', 'childAntibody': '9', 'address': '3700000000,3701000000,3701020000,3701020100,123123,山东省.济南市.历下区.解放路街道办事处.123123', 'habiaddr': '3700000000,3701000000,3701020000,3701020100,123123,山东省.济南市.历下区.解放路街道办事处.123123', 'birthHour': '', 'birthMin': '', 'committeeCode': '370102010201-12', 'mobilephone': '17500000000', 'allPhone': '17500000000', 'peopleClass': '01', 'habiaddrDetail': '123123', 'addressDetail': '123123', 'birthtime': '', 'timestamp': 1648694919438, 'proofno': ''}"
+  }, {
+    "name" : "headers",
+    "value" : "{'Referer': 'http://192.168.1.45:94/EpicardCloudPlatWeb_shanDongAppH5/', 'Content-Type': 'application/x-www-form-urlencoded', 'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; CT-TPC101 Build/2.6.1-21040120; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.100 Safari/537.36', 'X-Requested-With': 'com.shensu.ymy_jz'}"
+  }, {
+    "name" : "url",
+    "value" : "'http://192.168.1.45:94/EpicardCloudPlat_shandong/app/childinfo'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "25861a6c47ae5694.json",
+  "parameterValues" : [ "{'loginname': 'qp001', 'unitCode': '3701020102', 'unitName': '秦鹏001', 'cardtype': '03-护照', 'mothercardtype': '01-居民身份证', 'fathercardtype': '01-居民身份证', 'cardid': '4000', 'name': '接口自动化b', 'sex': '1', 'birthday': '2000-01-01', 'resiType': '1', 'nationnality': '156-中国', 'nationnalityname': '中国', 'nationnalityDisabled': 'false', 'createdate': '2022-03-31', 'motherHbsag': '9', 'childHbsag': '9', 'childAntibody': '9', 'address': '3700000000,3701000000,3701020000,3701020100,123123,山东省.济南市.历下区.解放路街道办事处.123123', 'habiaddr': '3700000000,3701000000,3701020000,3701020100,123123,山东省.济南市.历下区.解放路街道办事处.123123', 'birthHour': '', 'birthMin': '', 'committeeCode': '370102010201-12', 'mobilephone': '17500000000', 'allPhone': '17500000000', 'peopleClass': '01', 'habiaddrDetail': '123123', 'addressDetail': '123123', 'birthtime': '', 'timestamp': 1648694919438, 'proofno': ''}", "{'Referer': 'http://192.168.1.45:94/EpicardCloudPlatWeb_shanDongAppH5/', 'Content-Type': 'application/x-www-form-urlencoded', 'User-Agent': 'Mozilla/5.0 (Linux; Android 7.1.2; CT-TPC101 Build/2.6.1-21040120; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/52.0.2743.100 Safari/537.36', 'X-Requested-With': 'com.shensu.ymy_jz'}", "'http://192.168.1.45:94/EpicardCloudPlat_shandong/app/childinfo'" ]
+}
