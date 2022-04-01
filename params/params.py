@@ -127,4 +127,3 @@ device_type_qh = '1002'
 user_name_qh = 'bc3e6b0280669dac480c1d5ad1554def'
 vaccinecode_qh = '0201'
 files = [('files', ('photo.png', img_photo, 'image/png')), ('files', ('sign.png', img_sign, 'image/png'))]
-111
