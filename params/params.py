@@ -2,8 +2,8 @@
 import os
 
 imgpath = os.path.dirname(os.path.realpath(__file__))
-img_sign = open(imgpath + '\\sign.png', 'rb')
-img_photo = open(imgpath + '\\photo.png', 'rb')
+img_sign = open(imgpath + '/sign.png', 'rb')
+img_photo = open(imgpath + '/photo.png', 'rb')
 # 接口api
 url = 'http://192.168.1.45:94/EpicardCloudPlat_shandong'
 
