@@ -1,6 +1,7 @@
 # encoding = 'utf-8'
 import os
 
+111
 imgpath = os.path.dirname(os.path.realpath(__file__))
 img_sign = open(imgpath + '/sign.png', 'rb')
 img_photo = open(imgpath + '/photo.png', 'rb')
